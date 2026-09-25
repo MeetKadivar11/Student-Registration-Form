@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="SRFstyle.css">
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+    <form target="_blank" method="get">
+        <label for="student_name">Student Name:</label>
+        <input type="text" id="student_name" name="student_name"> <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email"> <br><br>
+        <label for="mobile_number">Mobile Number:</label>
+        <input type="number" id="mobile_number" name="mobile_number"> <br><br>
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="date" name="date_of_birth" id="date_of_birth"> <br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">other</label> <br><br>
+        <label for="branch">Branch:</label>
+        <select name="branch">
+            <option value="CSE">CSE</option>
+            <option value="CSE(AI&ML)">CSE(AI&ML)</option>
+            <option value="IT">IT</option>
+            <option value="ME">Mechanical</option>
+            <option value="CiE">Civil</option>
+            <option value="EE">Electrical</option>
+            <option value="CeE">Chemical</option>
+            <option value="ECE">ECE</option>
+        </select> <br><br>
+        <label for="semester">Semester:</label>
+        <select name="semester">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+        </select> <br><br>
+        <label for="subject">Subjects:</label>
+        <input type="checkbox" id="maths" name="subject" value="maths">
+        <label for="maths">Maths</label>
+        <input type="checkbox" id="physics" name="subject" value="physics">
+        <label for="physics">Physics</label>
+        <input type="checkbox" id="chemistry" name="subject" value="chemistry">
+        <label for="chemistry">Chemistry</label>
+        <input type="checkbox" id="WD" name="subject" value="WD">
+        <label for="WD">WD</label>
+        <input type="checkbox" id="pe" name="subject" value="pe">
+        <label for="pe">Prompt Engg.</label>
+        <input type="checkbox" id="pl" name="subject" value="pl">
+        <label for="pl">Programming language</label>
+        <input type="checkbox" id="cs" name="subject" value="cs">
+        <label for="cs">Communication skills</label> <br><br>
+        <label for="address">Address:</label>
+        <textarea rows="5" cols="30" placeholder="Enter your address."></textarea> <br><br>
+        <button type="submit">Submit</butto>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
